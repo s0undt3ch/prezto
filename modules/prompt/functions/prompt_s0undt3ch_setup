@@ -53,7 +53,7 @@ function prompt_s0undt3ch_setup {
   local failure_color='%F{124}'
 
   # Define prompts.
-  PROMPT="%~ %F{157}"'$python_info[virtualenv]'"%(1j;%{%F{cyan}%}%j⚙ ;) %(?..${failure_color}exitcode:%?)
+  PROMPT="%~ %F{214}"'$python_info[virtualenv]'"%(1j;%{%F{cyan}%}%j⚙ ;) %(?..${failure_color}exitcode:%?)
 %(?.${success_color}.${failure_color})${SSH_TTY:+[%n@%m]}%<<%(!.${root_char}.${user_char})%b%f "
 RPROMPT='${vcs_info_msg_0_}'
 }
